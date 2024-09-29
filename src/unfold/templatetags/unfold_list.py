@@ -40,7 +40,6 @@ LINK_CLASSES = []
 
 ROW_CLASSES = [
     "align-middle",
-    "flex",
     "border-t",
     "border-gray-200",
     "font-normal",
@@ -50,38 +49,24 @@ ROW_CLASSES = [
     "px-3",
     "py-2",
     "text-left",
-    "before:flex",
-    "before:capitalize",
-    "before:content-[attr(data-label)]",
-    "before:items-center",
-    "before:font-semibold",
-    "before:mr-auto",
     "first:border-t-0",
-    "lg:before:hidden",
-    "lg:first:border-t",
-    "lg:py-3",
-    "lg:table-cell",
+    "first:border-t",
+    "py-3",
+    "table-cell",
     "dark:border-gray-800",
 ]
 
 CHECKBOX_CLASSES = [
     "action-checkbox",
     "align-middle",
-    "flex",
     "items-center",
     "px-3",
     "py-2",
     "text-left",
-    "before:block",
-    "before:capitalize",
-    "before:content-[attr(data-label)]",
-    "before:font-semibold",
-    "before:mr-auto",
-    "lg:before:hidden",
-    "lg:border-t",
-    "lg:border-gray-200",
-    "lg:table-cell",
-    "dark:lg:border-gray-800",
+    "border-t",
+    "border-gray-200",
+    "table-cell",
+    "dark:border-gray-800",
 ]
 
 
